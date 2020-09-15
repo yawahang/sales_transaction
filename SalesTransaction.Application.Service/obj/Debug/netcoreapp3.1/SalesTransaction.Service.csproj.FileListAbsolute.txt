@@ -1,0 +1,11 @@
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.csprojAssemblyReference.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.AssemblyInfoInputs.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.AssemblyInfo.cs
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.csproj.CoreCompileInputs.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Service.deps.json
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Service.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\bin\Debug\netcoreapp3.1\SalesTransaction.DataAccess.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Model.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\bin\Debug\netcoreapp3.1\SalesTransaction.DataAccess.pdb
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Model.pdb
+D:\Intern Training\SalesTransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.csproj.CopyComplete

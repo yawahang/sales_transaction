@@ -1,0 +1,8 @@
+D:\Intern Training\SalesTransaction\SalesTransaction.DataAccess\bin\Debug\netcoreapp3.1\SalesTransaction.DataAccess.deps.json
+D:\Intern Training\SalesTransaction\SalesTransaction.DataAccess\bin\Debug\netcoreapp3.1\SalesTransaction.DataAccess.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.DataAccess\bin\Debug\netcoreapp3.1\SalesTransaction.DataAccess.pdb
+D:\Intern Training\SalesTransaction\SalesTransaction.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.DataAccess.AssemblyInfoInputs.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.DataAccess.AssemblyInfo.cs
+D:\Intern Training\SalesTransaction\SalesTransaction.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.DataAccess.csproj.CoreCompileInputs.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.DataAccess.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.DataAccess.pdb

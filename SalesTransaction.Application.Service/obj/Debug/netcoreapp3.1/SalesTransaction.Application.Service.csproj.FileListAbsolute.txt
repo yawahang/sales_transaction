@@ -1,0 +1,14 @@
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.deps.json
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.pdb
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csprojAssemblyReference.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.AssemblyInfoInputs.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.AssemblyInfo.cs
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csproj.CoreCompileInputs.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csproj.CopyComplete
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb

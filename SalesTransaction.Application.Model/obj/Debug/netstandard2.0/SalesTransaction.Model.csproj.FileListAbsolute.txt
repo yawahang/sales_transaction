@@ -1,0 +1,9 @@
+D:\Intern Training\SalesTransaction\SalesTransaction.Model\bin\Debug\netstandard2.0\SalesTransaction.Model.deps.json
+D:\Intern Training\SalesTransaction\SalesTransaction.Model\bin\Debug\netstandard2.0\SalesTransaction.Model.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.Model\bin\Debug\netstandard2.0\SalesTransaction.Model.pdb
+D:\Intern Training\SalesTransaction\SalesTransaction.Model\obj\Debug\netstandard2.0\SalesTransaction.Model.csprojAssemblyReference.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.Model\obj\Debug\netstandard2.0\SalesTransaction.Model.AssemblyInfoInputs.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.Model\obj\Debug\netstandard2.0\SalesTransaction.Model.AssemblyInfo.cs
+D:\Intern Training\SalesTransaction\SalesTransaction.Model\obj\Debug\netstandard2.0\SalesTransaction.Model.csproj.CoreCompileInputs.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.Model\obj\Debug\netstandard2.0\SalesTransaction.Model.dll
+D:\Intern Training\SalesTransaction\SalesTransaction.Model\obj\Debug\netstandard2.0\SalesTransaction.Model.pdb
