@@ -47,7 +47,7 @@ namespace SalesTransaction.Application.Service
                     + "' FOR JSON PATH, WITHOUT_ARRAY_WRAPPER ) AS Json";
                 cmd.CommandTimeout = _commandTimeout;
 
-                using SqlDataReader rdr = cmd.ExecuteReader();
+                using (SqlDataReader rdr = cmd.ExecuteReader())
                 {
                     try
                     {
@@ -72,7 +72,7 @@ namespace SalesTransaction.Application.Service
         {
             using (var con = _da.GetConnection())
             {
-                using var cmd = con.CreateCommand();
+                var cmd = con.CreateCommand();
                 //cmd.CommandType = CommandType.StoredProcedure;
                 // cmd.CommandText = "SpPersonSel";
                 //cmd.Parameters.Add("@Json", SqlDbType.NChar).Value = json;
@@ -83,7 +83,7 @@ namespace SalesTransaction.Application.Service
                     + " FOR JSON PATH, WITHOUT_ARRAY_WRAPPER ) AS Json";
                 cmd.CommandTimeout = _commandTimeout;
 
-                using SqlDataReader rdr = cmd.ExecuteReader();
+                using (SqlDataReader rdr = cmd.ExecuteReader())
                 {
                     try
                     {
