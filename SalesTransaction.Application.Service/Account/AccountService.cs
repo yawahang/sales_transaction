@@ -37,10 +37,10 @@ namespace SalesTransaction.Application.Service
         {
             using (var con = _da.GetConnection())
             {
-                using var cmd = con.CreateCommand();
+                var cmd = con.CreateCommand();
                 //cmd.CommandType = CommandType.StoredProcedure;
                 // cmd.CommandText = "SpUserSel";
-                //cmd.Parameters.Add("@Json", SqlDbType.NChar).Value = json;
+                //cmd.Parameters.Add("@Json", SqlDbType.NChar).Value = login;
 
                 cmd.CommandType = CommandType.Text;
                 cmd.CommandText = "SELECT (SELECT u.userName,u.password FROM dbo.[User] AS u WHERE u.UserName = '" + login.UserName + "' AND u.Password='" + login.Password
