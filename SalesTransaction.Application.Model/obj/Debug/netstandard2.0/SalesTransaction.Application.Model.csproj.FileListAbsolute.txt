@@ -3,7 +3,7 @@ D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\bin\Debug
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netstandard2.0\SalesTransaction.Application.Model.pdb
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.AssemblyInfoInputs.cache
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.AssemblyInfo.cs
-D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.csproj.CoreCompileInputs.cache
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.dll
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.pdb
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.csprojAssemblyReference.cache
+D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.csproj.CoreCompileInputs.cache

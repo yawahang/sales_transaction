@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SalesTransaction.Application.DataAccess": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

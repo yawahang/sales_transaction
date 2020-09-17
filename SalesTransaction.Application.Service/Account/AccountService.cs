@@ -13,10 +13,10 @@ namespace SalesTransaction.Application.Service
 {
     public class AccountService : IAccountService
     {
-        private DataAccessHelper _da;
+        private readonly DataAccessHelper _da;
         private readonly int _commandTimeout;
         private readonly string _connectionString;
-        private IConfiguration _configuration;
+        private readonly IConfiguration _configuration;
 
         public AccountService(IConfiguration configuration)
         {

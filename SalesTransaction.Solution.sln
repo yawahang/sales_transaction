@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTransaction.Applicatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTransaction.Application.Model", "SalesTransaction.Application.Model\SalesTransaction.Application.Model.csproj", "{8B650E6C-6B6E-4BBE-807D-6212E0187FCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTransaction.Application.WebApi", "SalesTransaction.Application.WebApi\SalesTransaction.Application.WebApi.csproj", "{0AEF03E9-0310-4D8F-9BAA-290F3622D0E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesTransaction.Application.WebApi", "SalesTransaction.Application.WebApi\SalesTransaction.Application.WebApi.csproj", "{0AEF03E9-0310-4D8F-9BAA-290F3622D0E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugClassLibrary", "DebugClassLibrary\DebugClassLibrary.csproj", "{7D9E9D14-0C81-4018-BA8B-F2DBC2BFD3DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0AEF03E9-0310-4D8F-9BAA-290F3622D0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AEF03E9-0310-4D8F-9BAA-290F3622D0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AEF03E9-0310-4D8F-9BAA-290F3622D0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9E9D14-0C81-4018-BA8B-F2DBC2BFD3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9E9D14-0C81-4018-BA8B-F2DBC2BFD3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9E9D14-0C81-4018-BA8B-F2DBC2BFD3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9E9D14-0C81-4018-BA8B-F2DBC2BFD3DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kwa3V66bNP3OzOHTyaoZPnDTORSV2STHLUJZCic7F5HRso6NahsaCo5BfBPVYbPncJ9Zy48pQmMcfsA7/vJS0g==",
+  "dgSpecHash": "thWFkBrRvvmoLyUdgbAqDtDD1i3YN0l68pttkax0cis0V3wD3jZ2dzUr1eqqqCgNkaJr58wENk0B/gHxAs4fWw==",
   "success": true,
   "projectFilePath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\yawah\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\yawah\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\yawah\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\yawah\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\yawah\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
     "C:\\Users\\yawah\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\yawah\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
