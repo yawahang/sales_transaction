@@ -1,22 +1,27 @@
 <h1>User Login</h1>
 <br />
 <br />
-<form #loginForm="ngForm" name="loginForm" class="login-form" (ngSubmit)="submitForm()" novalidate class="example-form">
+<form name="loginForm" [formGroup]="loginForm" class="login-form" (ngSubmit)="submitForm()" novalidate
+  class="example-form">
 
   <mat-error *ngIf="errorMessage != ''">
     {{ errorMessage }}
   </mat-error>
 
   <mat-form-field class="example-full-width">
-    <input matInput placeholder="User Name" formControlName="userName" required>
+    <input matInput type="text" placeholder="User Name" formControlName="userName" required>
   </mat-form-field>
 
   <mat-form-field class="example-full-width">
-    <input matInput placeholder="Password" formControlName="password" required>
+    <input matInput type="password" placeholder="Password" formControlName="password" required>
   </mat-form-field>
 
   <div class="example-full-width">
-    <button type="submit" mat-raised-button [disabled]="!loginForm.valid">Login</button>
+    <!-- [disabled]="!loginForm.valid" -->
+    <button mat-raised-button color="primary">Login</button>
   </div>
 
 </form>
+<br />
+<br />
+<div style="width: auto;height:auto;background-color:chocolate;color: black;">{{userDetail | json}}</div>

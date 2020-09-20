@@ -15,8 +15,8 @@ export class LoginComponent implements OnInit, OnDestroy, AfterViewInit {
   loginForm: FormGroup;
   errorMessage: any;
   errorMessageType: any = {
-    invForm: 'Invalid form!',
-    invLogin: 'Unable to login. Try again later!'
+    invForm: 'Invalid Form!',
+    invLogin: 'Invalid UserName or Password!'
   };
   loginFormErrors: any = {
     userName: {},
@@ -34,9 +34,10 @@ export class LoginComponent implements OnInit, OnDestroy, AfterViewInit {
 
   ngOnInit() {
 
+    /*, CustomValidationService.passwordValidator*/
     this.loginForm = this.fb.group({
       userName: ['', Validators.required],
-      password: ['', [Validators.required /*, CustomValidationService.passwordValidator*/]]
+      password: ['', [Validators.required]]
     });
 
     this.loginForm.valueChanges.subscribe(() => {
@@ -63,6 +64,8 @@ export class LoginComponent implements OnInit, OnDestroy, AfterViewInit {
 
   submitForm() { // call server/api and authenticate
 
+    this.errorMessage = null;
+    this.userDetail = null;
     if (this.loginForm.valid) {
 
       // const json = this.loginForm.value;
@@ -90,7 +93,7 @@ export class LoginComponent implements OnInit, OnDestroy, AfterViewInit {
   openSnackBar(message: string, action: string) {
 
     this._snackBar.open(message, action, {
-      duration: 2000, // in milli-seconds
+      duration: 5000, // in milli-seconds
       panelClass: [action],
       horizontalPosition: 'end',
       verticalPosition: 'top',
