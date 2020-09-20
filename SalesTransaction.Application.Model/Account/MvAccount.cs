@@ -1,5 +1,4 @@
 ﻿
-using System.ComponentModel.DataAnnotations;
 
 namespace SalesTransaction.Application.Model.Account
 {
@@ -9,9 +8,7 @@ namespace SalesTransaction.Application.Model.Account
 
     public class MvLogin
     {
-        [Required]
         public string UserName { get; set; }
-        [Required]
         public string Password { get; set; }
     }
 

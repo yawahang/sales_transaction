@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SalesTransaction.Application.Service;
 using SalesTransaction.Application.Service.Account;
+using System.Collections.Generic;
 
 namespace SalesTransaction.Application.WebApi
 {
@@ -21,14 +22,16 @@ namespace SalesTransaction.Application.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvcCore().AddNewtonsoftJson();
+
+            var allowOrigin = Configuration.GetSection("AllowOrigin").Get<List<string>>();
             services.AddCors(options =>
             {
                 options.AddPolicy(name: "AllowOrigin",
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:1212",
-                            "http://localhost:2121")
-                                .WithMethods("{POST}", "GET");
+                        builder.WithOrigins(allowOrigin.ToArray())
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
                     });
             });
 
@@ -49,13 +52,13 @@ namespace SalesTransaction.Application.WebApi
 
             app.UseRouting();
 
-            app.UseCors();
+            app.UseCors("AllowOrigin");
 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllers().RequireCors("AllowOrigin");
             });
         }
     }
