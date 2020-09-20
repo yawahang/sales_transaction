@@ -18,7 +18,7 @@ export class UserDetailComponent implements OnInit {
 
   ngOnInit() {
 
-    this.displayedColumns = ['personId', 'userName', 'firstName', 'lastName'];
+    this.displayedColumns = ['personId', 'userName', 'password', 'firstName', 'lastName'];
     this.getUserDetail();
   }
 

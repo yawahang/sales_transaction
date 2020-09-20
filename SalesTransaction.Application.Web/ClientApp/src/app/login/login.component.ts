@@ -1,9 +1,9 @@
-import { MvUserDetail } from './../user-detail/user-detail.model';
 import { LoginService } from './login.service';
 import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MvLogin } from './login.model';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'login',
@@ -24,10 +24,10 @@ export class LoginComponent implements OnInit, OnDestroy, AfterViewInit {
   };
 
   login: MvLogin = <MvLogin>{};
-  userDetail: MvUserDetail;
 
   constructor(public fb: FormBuilder, public ls: LoginService,
-    private _snackBar: MatSnackBar
+    private snackBar: MatSnackBar,
+    private router: Router
   ) {
 
   }
@@ -65,22 +65,20 @@ export class LoginComponent implements OnInit, OnDestroy, AfterViewInit {
   submitForm() { // call server/api and authenticate
 
     this.errorMessage = null;
-    this.userDetail = null;
     if (this.loginForm.valid) {
 
       // const json = this.loginForm.value;
-      this.login.userName = this.loginForm.get('userName').value;
-      this.login.password = this.loginForm.get('password').value;
+      this.login.userName = this.loginForm.get('userName').value.trim();
+      this.login.password = this.loginForm.get('password').value.trim();
 
       this.ls.getLogin(this.login).subscribe((response: any) => {
 
         if (response) {
 
-          this.userDetail = response;
           this.openSnackBar('Login Success!', 'success');
+          this.router.navigate(['/user-detail']);
         } else {
 
-          this.userDetail = null;
           this.errorMessage = this.errorMessageType.invLogin;
         }
       });
@@ -92,7 +90,7 @@ export class LoginComponent implements OnInit, OnDestroy, AfterViewInit {
 
   openSnackBar(message: string, action: string) {
 
-    this._snackBar.open(message, action, {
+    this.snackBar.open(message, 'close', {
       duration: 5000, // in milli-seconds
       panelClass: [action],
       horizontalPosition: 'end',

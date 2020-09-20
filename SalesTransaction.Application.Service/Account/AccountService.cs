@@ -79,7 +79,7 @@ namespace SalesTransaction.Application.Service
 
                 cmd.CommandType = CommandType.Text;
                 dynamic jsonNew = JsonConvert.DeserializeObject(json);
-                cmd.CommandText = "SELECT (SELECT p.personId,u.userName,p.firstName,p.lastName FROM dbo.Person AS p" +
+                cmd.CommandText = "SELECT (SELECT p.personId,u.userName,u.password,p.firstName,p.lastName FROM dbo.Person AS p" +
                     " INNER JOIN dbo.[User] AS u ON u.PersonId = p.PersonId" +
                     " WHERE p.PersonId = " + Convert.ToString(jsonNew.personId)
                     + " FOR JSON PATH, WITHOUT_ARRAY_WRAPPER ) AS Json";
@@ -115,7 +115,7 @@ namespace SalesTransaction.Application.Service
                 //cmd.Parameters.Add("@Json", SqlDbType.NChar).Value = json;
 
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "SELECT (SELECT (SELECT TOP 10 p.personId,u.userName,p.firstName,p.lastName FROM dbo.Person AS p" +
+                cmd.CommandText = "SELECT (SELECT (SELECT TOP 10 p.personId,u.userName,u.password,p.firstName,p.lastName FROM dbo.Person AS p" +
                     " INNER JOIN dbo.[User] AS u ON u.PersonId = p.PersonId" +
                     " WHERE u.UserName LIKE '%@zenople.com'" +
                     " ORDER BY p.PersonId FOR JSON PATH, INCLUDE_NULL_VALUES) AS data FOR JSON PATH, WITHOUT_ARRAY_WRAPPER ) AS Json";
