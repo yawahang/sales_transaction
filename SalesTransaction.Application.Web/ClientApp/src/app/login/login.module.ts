@@ -1,3 +1,4 @@
+import { UtilityService } from './../../core/services/utility.service';
 import { LoginComponent } from './login.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -31,7 +32,8 @@ const routes: Routes = [
         LoginComponent
     ],
     providers: [
-        LoginService
+        LoginService,
+        UtilityService
     ],
     exports: [
         LoginComponent

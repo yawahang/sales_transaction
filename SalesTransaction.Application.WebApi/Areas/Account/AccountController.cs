@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using SalesTransaction.Application.Model.Account;
 using SalesTransaction.Application.Service.Account;
 using SalesTransaction.Application.WebApi.Areas.Base;
+using Newtonsoft.Json;
 
 namespace SalesTransaction.Application.WebApi.Areas.Account
 {
@@ -55,5 +56,21 @@ namespace SalesTransaction.Application.WebApi.Areas.Account
                 throw;
             }
         }
+
+        #region Product
+        [HttpGet]
+        public IActionResult Product(string json)
+        {
+            try
+            {
+                dynamic jsonString = JsonConvert.DeserializeObject("{\n  \"data\": [\n    {\n      \"productId\": 1,\n      \"name\": \"Tshirt\",\n      \"rate\": 150,\n      \"quantityStock\": 200\n    },\n    {\n      \"productId\": 2,\n      \"name\": \"Trouser\",\n      \"rate\": 150,\n      \"quantityStock\": 200\n    },\n    {\n      \"productId\": 3,\n      \"name\": \"Shoe\",\n      \"rate\": 150,\n      \"quantityStock\": 200\n    },\n    {\n      \"productId\": 6,\n      \"name\": \"Belt\",\n      \"rate\": 150,\n      \"quantityStock\": 200\n    },\n    {\n      \"productId\": 5,\n      \"name\": \"Cap\",\n      \"rate\": 150,\n      \"quantityStock\": 200\n    }\n  ]\n}");
+                return Ok(jsonString);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+        #endregion Product
     }
 }

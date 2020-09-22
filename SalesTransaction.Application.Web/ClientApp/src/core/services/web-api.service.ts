@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
 })
 export class WebApiService {
 
-  apiUrl = environment.apiUrl; // 'http://localhost:1212';
+  apiUrl = environment.apiUrl; // 'http://localhost:1212/api/';
 
   constructor(private http: HttpClient) {
   }
