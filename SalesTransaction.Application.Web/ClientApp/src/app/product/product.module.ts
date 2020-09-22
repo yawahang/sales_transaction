@@ -11,6 +11,8 @@ import { ProductFormComponent } from './product-form/product-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { CdkTableModule } from '@angular/cdk/table';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { UtilityService } from 'src/core/services/utility.service';
 
 const routes: Routes = [
   {
@@ -26,6 +28,8 @@ const routes: Routes = [
     MatTableModule,
     MatButtonModule,
     MatDialogModule,
+    MatSnackBarModule,
+
     // ProductFormModule
     MatFormFieldModule,
     FormsModule,
@@ -38,7 +42,8 @@ const routes: Routes = [
     ProductFormComponent
   ],
   providers: [
-    ProductService
+    ProductService,
+    UtilityService
   ],
   exports: [
     ProductComponent

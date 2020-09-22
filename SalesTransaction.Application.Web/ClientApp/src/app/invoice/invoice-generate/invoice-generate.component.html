@@ -1,0 +1,65 @@
+<h1 mat-dialog-title>Invoice</h1>
+<div mat-dialog-content>
+
+  <mat-card style="margin:5px;">
+    <mat-card-header>
+      <mat-card-subtitle>Invoice Detail</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      <table style="width:100%">
+        <tr style="border-bottom: #5c3f3f solid 0.5px">
+          <th>SalesId</th>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Rate</th>
+          <th>Total</th>
+        </tr>
+        <tr *ngFor="let sales of selectedInvoice.invoiceDetail">
+          <td>{{sales.salesId}}</td>
+          <td>{{sales.product}}</td>
+          <td>{{sales.quantity}}</td>
+          <td>${{sales.rate}}</td>
+          <td>${{sales.total}}</td>
+        </tr>
+        <tfoot style="text-align:left">
+          <tr style="border-top: #5c3f3f solid 0.5px;font-weight: bold;">
+            <td>Total</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>${{allTotal}}</td>
+          </tr>
+        </tfoot>
+      </table>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card style="margin:5px;">
+    <mat-card-header>
+      <mat-card-subtitle>Summary</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      <table style="width:100%">
+        <tr style="text-align:left; border-bottom: #5c3f3f solid 0.5px">
+          <th>InvoiceId</th>
+          <th>Invoice Number</th>
+          <th>Customer</th>
+          <th>Amount</th>
+        </tr>
+        <tr style="text-align:left">
+          <td>{{selectedInvoice.invoiceId}}</td>
+          <td>{{selectedInvoice.invoiceNumber}}</td>
+          <td>{{selectedInvoice.customer}}</td>
+          <td>${{selectedInvoice.invoiceAmount}}</td>
+        </tr>
+      </table>
+    </mat-card-content>
+  </mat-card>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="cancelClick()" color="warn">Cancel</button>
+  <button (click)="printInvoice()" mat-raised-button color="primary">Print</button>
+</div>

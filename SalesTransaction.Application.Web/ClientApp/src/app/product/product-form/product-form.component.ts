@@ -20,6 +20,8 @@ export class ProductFormComponent implements OnInit, AfterViewInit {
     @Inject(MAT_DIALOG_DATA) public data: any,
     public fb: FormBuilder) {
 
+    dialogRef.disableClose = true;
+
     this.action = data.action;
     this.selectedProduct = data.data || {};
 

@@ -1,3 +1,4 @@
+import { UtilityService } from './../../core/services/utility.service';
 import { ProductService } from './product.service';
 import { Component, OnInit } from '@angular/core';
 import { MvNewProduct, MvProduct } from './product.model';
@@ -20,7 +21,10 @@ export class ProductComponent implements OnInit {
   selection = new SelectionModel<MvNewProduct>(false, []);
 
   constructor(private ps: ProductService,
-    public dialog: MatDialog) { }
+    public dialog: MatDialog,
+    private us: UtilityService) {
+
+  }
 
   ngOnInit() {
 
@@ -48,6 +52,8 @@ export class ProductComponent implements OnInit {
 
   addProduct() {
 
+    this.selection.clear();
+    this.selectedProduct = <MvNewProduct>{};
     this.openDialog('Add');
   }
 
@@ -58,13 +64,27 @@ export class ProductComponent implements OnInit {
 
   openDialog(action: string) {
 
+    if (action === 'Edit' && !this.selection.hasValue()) {
+
+      this.us.openSnackBar('Please Select A Row to Edit Product!', 'warning');
+      return;
+    }
+
     const dialogRef = this.dialog.open(ProductFormComponent, {
       width: '250px',
       data: { data: this.selectedProduct, action: action }
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      this.selectedProduct = result;
+
+      if (result) {
+
+        this.selectedProduct = result;
+        this.us.openSnackBar('Product Added Sucessfully!', 'success');
+      } else {
+
+        this.us.openSnackBar('Action Cancelled!', 'warning');
+      }
     });
   }
 
