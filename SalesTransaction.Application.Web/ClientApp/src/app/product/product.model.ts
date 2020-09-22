@@ -4,9 +4,3 @@ export interface MvProduct {
     rate: number;
     quantityStock: number;
 }
-
-export interface MvNewProduct {
-    name: string;
-    rate: number;
-    quantityStock: number;
-}

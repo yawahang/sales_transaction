@@ -1,7 +1,7 @@
 import { UtilityService } from './../../core/services/utility.service';
 import { ProductService } from './product.service';
 import { Component, OnInit } from '@angular/core';
-import { MvNewProduct, MvProduct } from './product.model';
+import { MvProduct } from './product.model';
 import { MatDialog } from '@angular/material/dialog';
 import { ProductFormComponent } from './product-form/product-form.component';
 import { SelectionModel } from '@angular/cdk/collections';
@@ -16,9 +16,10 @@ export class ProductComponent implements OnInit {
 
   displayedColumns: string[];
   dataSource: MatTableDataSource<MvProduct>;
+  gridData: MvProduct[] = [];
   productMsg = '';
-  selectedProduct: MvNewProduct = <MvNewProduct>{};
-  selection = new SelectionModel<MvNewProduct>(false, []);
+  selectedProduct: MvProduct = <MvProduct>{};
+  selection = new SelectionModel<MvProduct>(false, []);
 
   constructor(private ps: ProductService,
     public dialog: MatDialog,
@@ -39,11 +40,11 @@ export class ProductComponent implements OnInit {
 
       if (result && result.data) {
 
-        // this.dataSource = result.data;
-        this.dataSource = new MatTableDataSource<MvProduct>(result.data);
+        this.gridData = result.data;
+        this.dataSource = new MatTableDataSource<MvProduct>(this.gridData);
       } else {
 
-        // this.dataSource = [];
+        this.gridData = [];
         this.dataSource = new MatTableDataSource<MvProduct>();
         this.productMsg = 'No Products!';
       }
@@ -53,7 +54,7 @@ export class ProductComponent implements OnInit {
   addProduct() {
 
     this.selection.clear();
-    this.selectedProduct = <MvNewProduct>{};
+    this.selectedProduct = <MvProduct>{};
     this.openDialog('Add');
   }
 
@@ -80,6 +81,19 @@ export class ProductComponent implements OnInit {
       if (result) {
 
         this.selectedProduct = result;
+        // save to server
+
+        // modify grid data
+        for (const index in this.gridData) {
+
+          if (this.gridData[index].productId === this.selectedProduct.productId) {
+
+            this.gridData[index] = { ...this.selectedProduct };
+            this.dataSource = new MatTableDataSource<MvProduct>(this.gridData);
+            break;
+          }
+        }
+
         this.us.openSnackBar('Product Added Sucessfully!', 'success');
       } else {
 

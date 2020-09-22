@@ -2,7 +2,7 @@ import { AfterViewInit, Inject } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { MvNewProduct } from '../product.model';
+import { MvProduct } from '../product.model';
 
 @Component({
   selector: 'app-product-form',
@@ -12,7 +12,7 @@ import { MvNewProduct } from '../product.model';
 export class ProductFormComponent implements OnInit, AfterViewInit {
 
   action: string;
-  selectedProduct: MvNewProduct = <MvNewProduct>{};
+  selectedProduct: MvProduct = <MvProduct>{};
   productForm: FormGroup;
 
   constructor(
