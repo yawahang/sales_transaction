@@ -83,15 +83,27 @@ export class ProductComponent implements OnInit {
         this.selectedProduct = result;
         // save to server
 
-        // modify grid data
-        for (const index in this.gridData) {
+        if (action === 'Edit') {
 
-          if (this.gridData[index].productId === this.selectedProduct.productId) {
+          // update in server database
 
-            this.gridData[index] = { ...this.selectedProduct };
-            this.dataSource = new MatTableDataSource<MvProduct>(this.gridData);
-            break;
+          // modify grid data
+          for (const index in this.gridData) {
+
+            if (this.gridData[index].productId === this.selectedProduct.productId) {
+
+              this.gridData[index] = { ...this.selectedProduct };
+              this.dataSource = new MatTableDataSource<MvProduct>(this.gridData);
+              break;
+            }
           }
+        } else { // Add
+
+          // save to server database
+
+          // get response from server and append to existing grid
+          this.gridData.unshift({ ...this.selectedProduct });
+          this.dataSource = new MatTableDataSource<MvProduct>(this.gridData);
         }
 
         this.us.openSnackBar('Product Added Sucessfully!', 'success');
