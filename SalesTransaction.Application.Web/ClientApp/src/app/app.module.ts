@@ -11,7 +11,7 @@ const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   {
     path: 'login',
-    loadChildren: () => import('./login/login.module').then(m => m.LoginModule)
+    loadChildren: () => import('./login/login.module').then(m => m.LoginModule) // lazy load routes with Modules
   },
   {
     path: 'user-detail',

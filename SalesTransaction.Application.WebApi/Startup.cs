@@ -23,7 +23,7 @@ namespace SalesTransaction.Application.WebApi
         {
             services.AddMvcCore().AddNewtonsoftJson();
 
-            var allowOrigin = Configuration.GetSection("AllowOrigin").Get<List<string>>();
+            var allowOrigin = Configuration.GetSection("AllowOrigin").Get<List<string>>(); // Allow Origins for address added in Configuration>AllowOrigin
             services.AddCors(options =>
             {
                 options.AddPolicy(name: "AllowOrigin",

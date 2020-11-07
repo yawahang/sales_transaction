@@ -601,11 +601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Intern Training\\SalesTransaction\\DebugClassLibrary\\DebugClassLibrary.csproj",
+      "projectUniqueName": "D:\\MonsooN\\Work\\sales_transaction\\DebugClassLibrary\\DebugClassLibrary.csproj",
       "projectName": "DebugClassLibrary",
-      "projectPath": "D:\\Intern Training\\SalesTransaction\\DebugClassLibrary\\DebugClassLibrary.csproj",
+      "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\DebugClassLibrary\\DebugClassLibrary.csproj",
       "packagesPath": "C:\\Users\\yawah\\.nuget\\packages\\",
-      "outputPath": "D:\\Intern Training\\SalesTransaction\\DebugClassLibrary\\obj\\",
+      "outputPath": "D:\\MonsooN\\Work\\sales_transaction\\DebugClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -625,8 +625,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj": {
-              "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj"
+            "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj": {
+              "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj"
             }
           }
         }

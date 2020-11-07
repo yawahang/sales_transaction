@@ -111,6 +111,15 @@
           }
         }
       },
+      "System.ComponentModel.Annotations/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        }
+      },
       "System.Data.SqlClient/4.8.2": {
         "type": "package",
         "dependencies": {
@@ -178,6 +187,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "3.1.8",
+          "Newtonsoft.Json": "12.0.3",
           "System.Data.SqlClient": "4.8.2"
         },
         "compile": {
@@ -190,6 +200,9 @@
       "SalesTransaction.Application.Model/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
         "compile": {
           "bin/placeholder/SalesTransaction.Application.Model.dll": {}
         },
@@ -406,6 +419,95 @@
         "version.txt"
       ]
     },
+    "System.ComponentModel.Annotations/4.7.0": {
+      "sha512": "0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "type": "package",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net461/System.ComponentModel.Annotations.dll",
+        "lib/netcore50/System.ComponentModel.Annotations.dll",
+        "lib/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.xml",
+        "lib/portable-net45+win8/_._",
+        "lib/win8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net461/System.ComponentModel.Annotations.dll",
+        "ref/net461/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/System.ComponentModel.Annotations.dll",
+        "ref/netcore50/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/de/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/es/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/fr/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/it/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ja/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ko/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ru/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.xml",
+        "ref/portable-net45+win8/_._",
+        "ref/win8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.annotations.4.7.0.nupkg.sha512",
+        "system.componentmodel.annotations.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Data.SqlClient/4.8.2": {
       "sha512": "80vGtW6uLB4AkyrdVuKTXYUyuXDPAsSKbTVfvjndZaRAYxzFzWhJbvUfeAKrN+128ycWZjLIAl61dFUwWHOOTw==",
       "type": "package",
@@ -594,17 +696,19 @@
     },
     "SalesTransaction.Application.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../SalesTransaction.DataAccess/SalesTransaction.Application.DataAccess.csproj",
-      "msbuildProject": "../SalesTransaction.DataAccess/SalesTransaction.Application.DataAccess.csproj"
+      "path": "../SalesTransaction.Application.DataAccess/SalesTransaction.Application.DataAccess.csproj",
+      "msbuildProject": "../SalesTransaction.Application.DataAccess/SalesTransaction.Application.DataAccess.csproj"
     },
     "SalesTransaction.Application.Model/1.0.0": {
       "type": "project",
-      "path": "../SalesTransaction.Model/SalesTransaction.Application.Model.csproj",
-      "msbuildProject": "../SalesTransaction.Model/SalesTransaction.Application.Model.csproj"
+      "path": "../SalesTransaction.Application.Model/SalesTransaction.Application.Model.csproj",
+      "msbuildProject": "../SalesTransaction.Application.Model/SalesTransaction.Application.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
+      "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj",
       "Microsoft.Extensions.Configuration >= 3.1.8",
       "Newtonsoft.Json >= 12.0.3",
       "SalesTransaction.Application.DataAccess >= 1.0.0",
@@ -618,11 +722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj",
+      "projectUniqueName": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj",
       "projectName": "SalesTransaction.Application.Service",
-      "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj",
+      "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj",
       "packagesPath": "C:\\Users\\yawah\\.nuget\\packages\\",
-      "outputPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Service\\obj\\",
+      "outputPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -642,17 +746,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj": {
-              "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj"
+            "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj": {
+              "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj"
             },
-            "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj": {
-              "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj"
+            "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj": {
+              "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj"
             },
-            "D:\\Intern Training\\SalesTransaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj": {
-              "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj"
+            "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj": {
+              "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj"
             },
-            "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj": {
-              "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj"
+            "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj": {
+              "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj"
             }
           }
         }
@@ -693,5 +797,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

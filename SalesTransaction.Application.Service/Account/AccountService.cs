@@ -73,10 +73,12 @@ namespace SalesTransaction.Application.Service
             using (var con = _da.GetConnection())
             {
                 var cmd = con.CreateCommand();
+                // database call using StoredProcedure
                 //cmd.CommandType = CommandType.StoredProcedure;
                 // cmd.CommandText = "SpPersonSel";
                 //cmd.Parameters.Add("@Json", SqlDbType.NChar).Value = json;
 
+                // database call using SQL Text
                 cmd.CommandType = CommandType.Text;
                 dynamic jsonNew = JsonConvert.DeserializeObject(json);
                 cmd.CommandText = "SELECT (SELECT p.personId,u.userName,u.password,p.firstName,p.lastName FROM dbo.Person AS p" +
@@ -110,14 +112,14 @@ namespace SalesTransaction.Application.Service
             using (var con = _da.GetConnection())
             {
                 var cmd = con.CreateCommand();
-                //cmd.CommandType = CommandType.StoredProcedure;
+                //cmd.CommandType = CommandType.StoredProcedure; 
                 // cmd.CommandText = "SpPersonSel";
                 //cmd.Parameters.Add("@Json", SqlDbType.NChar).Value = json;
 
                 cmd.CommandType = CommandType.Text;
                 cmd.CommandText = "SELECT (SELECT (SELECT TOP 10 p.personId,u.userName,u.password,p.firstName,p.lastName FROM dbo.Person AS p" +
                     " INNER JOIN dbo.[User] AS u ON u.PersonId = p.PersonId" +
-                    " WHERE u.UserName LIKE '%@zenople.com'" +
+                    " WHERE u.UserName = 'yawahangkoyu@gmail.com'" +
                     " ORDER BY p.PersonId FOR JSON PATH, INCLUDE_NULL_VALUES) AS data FOR JSON PATH, WITHOUT_ARRAY_WRAPPER ) AS Json";
                 cmd.CommandTimeout = _commandTimeout;
 

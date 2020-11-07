@@ -285,11 +285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj",
+      "projectUniqueName": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj",
       "projectName": "SalesTransaction.Application.Model",
-      "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj",
+      "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj",
       "packagesPath": "C:\\Users\\yawah\\.nuget\\packages\\",
-      "outputPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Model\\obj\\",
+      "outputPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

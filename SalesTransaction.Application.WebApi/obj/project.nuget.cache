@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "thWFkBrRvvmoLyUdgbAqDtDD1i3YN0l68pttkax0cis0V3wD3jZ2dzUr1eqqqCgNkaJr58wENk0B/gHxAs4fWw==",
-  "success": true,
-  "projectFilePath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj",
+  "dgSpecHash": "RJnWVIdezIHUoKLFnUqb/xvXosUBaE+ucW7wQKAbLJaJbimv8L1y7xzOiPamhZRCL+THwmM+tbloYqhCCq1sAg==",
+  "success": false,
+  "projectFilePath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yawah\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.0.0\\microsoft.aspnetcore.jsonpatch.3.0.0.nupkg.sha512",
     "C:\\Users\\yawah\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.3.0.0.nupkg.sha512",
@@ -23,5 +23,24 @@
     "C:\\Users\\yawah\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\yawah\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

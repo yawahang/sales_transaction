@@ -238,6 +238,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "3.1.8",
+          "Newtonsoft.Json": "12.0.3",
           "System.Data.SqlClient": "4.8.2"
         },
         "compile": {
@@ -264,6 +265,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj": "1.0.0",
+          "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj": "1.0.0",
           "Microsoft.Extensions.Configuration": "3.1.8",
           "Newtonsoft.Json": "12.0.3",
           "SalesTransaction.Application.DataAccess": "1.0.0",
@@ -878,8 +881,8 @@
     },
     "SalesTransaction.Application.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../SalesTransaction.DataAccess/SalesTransaction.Application.DataAccess.csproj",
-      "msbuildProject": "../SalesTransaction.DataAccess/SalesTransaction.Application.DataAccess.csproj"
+      "path": "../SalesTransaction.Application.DataAccess/SalesTransaction.Application.DataAccess.csproj",
+      "msbuildProject": "../SalesTransaction.Application.DataAccess/SalesTransaction.Application.DataAccess.csproj"
     },
     "SalesTransaction.Application.Model/1.0.0": {
       "type": "project",
@@ -907,11 +910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj",
+      "projectUniqueName": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj",
       "projectName": "SalesTransaction.Application.WebApi",
-      "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj",
+      "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj",
       "packagesPath": "C:\\Users\\yawah\\.nuget\\packages\\",
-      "outputPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.WebApi\\obj\\",
+      "outputPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -931,11 +934,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj": {
-              "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj"
+            "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj": {
+              "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj"
             },
-            "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj": {
-              "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj"
+            "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj": {
+              "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj"
             }
           }
         }
@@ -979,5 +982,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

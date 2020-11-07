@@ -25,7 +25,7 @@ export class UserDetailComponent implements OnInit {
   getUserDetail() {
 
     this.userMsg = '';
-    const headers = new HttpHeaders();
+    const headers = new HttpHeaders(); // create http header for requesting api
     headers.set('Content-Type', 'application/json');
     headers.set('Access-Control-Allow-Origin', '*');
     headers.set('Access-Control-Allow-Methods', 'GET, POST');
@@ -34,7 +34,7 @@ export class UserDetailComponent implements OnInit {
     this.http.get('http://localhost:1212/api/Account/UserDetail', {
       headers: headers,
       params: { json: JSON.stringify({ personId: 15599209 }) }
-    }).subscribe((result: any) => {
+    }).subscribe((result) => {
 
       if (result) {
 
@@ -50,7 +50,7 @@ export class UserDetailComponent implements OnInit {
   getAllUsers() {
 
     this.userMsg = '';
-    this.uds.getAllUserDetail().subscribe((result: any) => {
+    this.uds.getAllUserDetail().subscribe((result) => {
 
       if (result && result.data) {
 
@@ -62,5 +62,4 @@ export class UserDetailComponent implements OnInit {
       }
     });
   }
-
 }

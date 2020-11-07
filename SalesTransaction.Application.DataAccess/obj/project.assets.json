@@ -583,11 +583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
+      "projectUniqueName": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
       "projectName": "SalesTransaction.Application.DataAccess",
-      "projectPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
+      "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
       "packagesPath": "C:\\Users\\yawah\\.nuget\\packages\\",
-      "outputPath": "D:\\Intern Training\\SalesTransaction\\SalesTransaction.Application.DataAccess\\obj\\",
+      "outputPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
