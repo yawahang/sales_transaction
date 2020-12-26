@@ -13,8 +13,6 @@
   <ItemGroup>
     <ProjectReference Include="..\SalesTransaction.Application.DataAccess\SalesTransaction.Application.DataAccess.csproj" />
     <ProjectReference Include="..\SalesTransaction.Application.Model\SalesTransaction.Application.Model.csproj" />
-    <ProjectReference Include="..\SalesTransaction.DataAccess\SalesTransaction.Application.DataAccess.csproj" />
-    <ProjectReference Include="..\SalesTransaction.Model\SalesTransaction.Application.Model.csproj" />
   </ItemGroup>
 
 </Project>

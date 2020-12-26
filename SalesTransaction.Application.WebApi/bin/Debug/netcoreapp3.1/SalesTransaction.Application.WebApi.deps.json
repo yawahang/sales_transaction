@@ -494,6 +494,19 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
+      "SalesTransaction.Application.DataAccess/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.8",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "runtime": {
+          "SalesTransaction.Application.DataAccess.dll": {}
+        },
+        "compile": {
+          "SalesTransaction.Application.DataAccess.dll": {}
+        }
+      },
       "SalesTransaction.Application.Model/1.0.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "4.7.0"
@@ -517,14 +530,6 @@
         },
         "compile": {
           "SalesTransaction.Application.Service.dll": {}
-        }
-      },
-      "SalesTransaction.Application.DataAccess.Reference/1.0.0.0": {
-        "runtime": {
-          "SalesTransaction.Application.DataAccess.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2200,13 +2205,6 @@
           "WindowsBase.dll": {}
         },
         "compileOnly": true
-      },
-      "SalesTransaction.Application.DataAccess/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.8",
-          "System.Data.SqlClient": "4.8.2"
-        },
-        "compileOnly": true
       }
     }
   },
@@ -2342,6 +2340,11 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
+    "SalesTransaction.Application.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "SalesTransaction.Application.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2349,11 +2352,6 @@
     },
     "SalesTransaction.Application.Service/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SalesTransaction.Application.DataAccess.Reference/1.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
@@ -3749,11 +3747,6 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SalesTransaction.Application.DataAccess/1.0.0": {
-      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

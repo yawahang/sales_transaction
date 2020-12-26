@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Wr5YPTaVZKjAyGc5P9VWSw44GiXJBMUGoaej+Ix+NJ3zslrGo1n+8DxOIVQ3QU2siH2cbyhaA9AvzMr+8pALLg==",
-  "success": false,
+  "dgSpecHash": "Lz6nc1IFhKhzsg0Q9B1keafv6HArKSmPLShTaVYGUHcwNF6naeYZSJ8PbA9Nbau2L4dKFdHzgiAbBlYaf/U3jw==",
+  "success": true,
   "projectFilePath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yawah\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
@@ -19,24 +19,5 @@
     "C:\\Users\\yawah\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\yawah\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

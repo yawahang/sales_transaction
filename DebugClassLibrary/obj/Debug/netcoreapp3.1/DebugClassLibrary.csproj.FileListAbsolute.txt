@@ -24,3 +24,29 @@ D:\Intern Training\SalesTransaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\De
 D:\Intern Training\SalesTransaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.dll
 D:\Intern Training\SalesTransaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.pdb
 D:\Intern Training\SalesTransaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.genruntimeconfig.cache
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\DebugClassLibrary.exe
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\DebugClassLibrary.deps.json
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\DebugClassLibrary.runtimeconfig.json
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\DebugClassLibrary.runtimeconfig.dev.json
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\DebugClassLibrary.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\DebugClassLibrary.pdb
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.pdb
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.csprojAssemblyReference.cache
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.AssemblyInfoInputs.cache
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.AssemblyInfo.cs
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.csproj.CoreCompileInputs.cache
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.csproj.CopyComplete
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.dll
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.pdb
+D:\MonsooN\Work\sales_transaction\DebugClassLibrary\obj\Debug\netcoreapp3.1\DebugClassLibrary.genruntimeconfig.cache

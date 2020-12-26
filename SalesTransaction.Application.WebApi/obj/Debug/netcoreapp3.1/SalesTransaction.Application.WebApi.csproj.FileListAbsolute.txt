@@ -38,3 +38,43 @@ D:\Intern Training\SalesTransaction\SalesTransaction.Application.WebApi\bin\Debu
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.csproj.CoreCompileInputs.cache
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.pdb
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.exe
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.deps.json
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.runtimeconfig.json
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.runtimeconfig.dev.json
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.pdb
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.pdb
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.csprojAssemblyReference.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.AssemblyInfoInputs.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.AssemblyInfo.cs
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.csproj.CoreCompileInputs.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.RazorTargetAssemblyInfo.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.csproj.CopyComplete
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\SalesTransaction.Application.WebApi.StaticWebAssets.Manifest.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\SalesTransaction.Application.WebApi.StaticWebAssets.xml
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.WebApi\obj\Debug\netcoreapp3.1\SalesTransaction.Application.WebApi.genruntimeconfig.cache

@@ -7,3 +7,12 @@ D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.pdb
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.csprojAssemblyReference.cache
 D:\Intern Training\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.csproj.CoreCompileInputs.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.Model\bin\Debug\netstandard2.0\SalesTransaction.Application.Model.deps.json
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.Model\bin\Debug\netstandard2.0\SalesTransaction.Application.Model.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.Model\bin\Debug\netstandard2.0\SalesTransaction.Application.Model.pdb
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.csprojAssemblyReference.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.AssemblyInfoInputs.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.AssemblyInfo.cs
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.csproj.CoreCompileInputs.cache
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.dll
+D:\MonsooN\Work\sales_transaction\SalesTransaction.Application.Model\obj\Debug\netstandard2.0\SalesTransaction.Application.Model.pdb

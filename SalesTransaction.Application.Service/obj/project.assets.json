@@ -707,8 +707,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
-      "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj",
       "Microsoft.Extensions.Configuration >= 3.1.8",
       "Newtonsoft.Json >= 12.0.3",
       "SalesTransaction.Application.DataAccess >= 1.0.0",
@@ -751,12 +749,6 @@
             },
             "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj": {
               "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj"
-            },
-            "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj": {
-              "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj"
-            },
-            "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj": {
-              "projectPath": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj"
             }
           }
         }
@@ -797,25 +789,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\MonsooN\\Work\\sales_transaction\\SalesTransaction.Model\\SalesTransaction.Application.Model.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }
