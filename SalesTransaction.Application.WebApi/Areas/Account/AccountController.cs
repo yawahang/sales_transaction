@@ -4,6 +4,7 @@ using SalesTransaction.Application.Model.Account;
 using SalesTransaction.Application.Service.Account;
 using SalesTransaction.Application.WebApi.Areas.Base;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SalesTransaction.Application.WebApi.Areas.Account
 {
@@ -16,6 +17,7 @@ namespace SalesTransaction.Application.WebApi.Areas.Account
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public IActionResult Login([FromBody] MvLogin login)
         {
             try
