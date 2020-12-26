@@ -12,7 +12,7 @@ A demo project for traineeship/mentorship at Aqore.
   - A simple design pattern of the project (Web > Web.Api > Services > DataAccess > Database)
   - Database connection using ado.net
   - Interface and its implemention in Services
-  - Services Dipendency Injection in Web.Api
+  - Services Dependency Injection in Web.Api
   - Basic web api setup in .net core (Cors, NewtonsoftJson)
   - Web applicationusing .Net Angular template
   - Angular Basics (Components, Modules, Services, Routes, Forms)
