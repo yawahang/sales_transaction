@@ -230,3 +230,5 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 /.vs
+.vs/SalesTransaction.Solution/DesignTimeBuild/.dtbcache.v2
+.vs/SalesTransaction.Solution/v16/.suo
